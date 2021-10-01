@@ -1,0 +1,83 @@
+/* -------------------------------------- */
+/*   ALTO CONTRASTE CONSULTAR INSCRITOS   */
+/* -------------------------------------- */
+.alto-contraste, 
+.alto-contraste a,
+.alto-contraste button,
+.alto-contraste input,  
+.alto-contraste textarea, 
+.alto-contraste select, 
+.alto-contraste textarea:focus,
+.alto-contraste footer,
+.alto-contraste nav
+{
+	color: #ffffff !important;
+	background-color: #000000 !important;
+}
+
+.alto-contraste nav{
+    border-bottom: 1px solid #ffffff;
+}
+
+.alto-contraste footer{
+    border-top: 1px solid #ffffff;
+}
+
+.alto-contraste nav a,
+.alto-contraste form button{
+    border-color: #ffffff;
+    margin: 2px;
+}
+
+.alto-contraste nav a:hover,
+.alto-contraste nav a:focus,
+.alto-contraste form button:hover,
+.alto-contraste form button:focus{
+    border-color: #ffffff;
+    margin: 0;
+    border-width: 3px;
+}
+
+.alto-contraste #myTab{
+    background-color: #999999 !important;
+}
+
+.alto-contraste #myTab li a:hover,
+.alto-contraste #myTab li a:focus,
+.alto-contraste #myTab li a.active{
+    font-weight: bold;
+}
+
+.alto-contraste table{
+    color: #ffffff;
+}
+
+.alto-contraste .table-striped tbody tr:nth-of-type(odd){
+    background-color: #111111 !important;
+}
+
+.alto-contraste .page-item.active .page-link{
+    background-color: #999999 !important;
+    border-color: #cccccc !important;
+}
+
+/* ----------------------- */
+/*   ALTO CONTRASTE HOME   */
+/* ----------------------- */
+.alto-contraste div.card{
+    background-color: #343a40 !important;
+}
+
+.alto-contraste a div.card div.card-img-overlay p,
+.alto-contraste a .card div.card-img-overlay p,
+.alto-contraste a div.card div.card-img-overlay div small,
+.alto-contraste a .card div.card-img-overlay div small{
+    color: #f8f9fa !important;
+}
+
+.alto-contraste a:hover div.card div.card-img-overlay p,
+.alto-contraste a:focus .card div.card-img-overlay p,
+.alto-contraste a:hover div.card div.card-img-overlay div small,
+.alto-contraste a:focus .card div.card-img-overlay div small{
+    color: #ffffff !important;
+}

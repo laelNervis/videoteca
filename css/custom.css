@@ -1,0 +1,57 @@
+/* ------------------- */
+/*   DEFAULT CUSTOMS   */
+/* ------------------- */
+h1{
+    padding-top: 5px;
+    padding-left: 0 !important;
+}
+
+h1 img{
+    width: 30px;
+    height: 30px;
+}
+
+h1 span{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #ffffff !important;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+/* Datatables */
+.page-link{
+    color: #555555 !important;
+}
+
+.page-item.active .page-link{
+    background-color: #555555 !important;
+    border-color: #555555 !important;
+    color: #ffffff !important;
+}
+
+table.compact tfoot th,
+table.compact tfoot td {
+  padding: 4px !important;
+}
+table.compact tbody th,
+table.compact tbody td {
+  padding: 4px !important;
+}
+
+/* ----------------- */
+/*   MEDIA QUERIES   */
+/* ----------------- */
+@media only screen and (min-width: 768px) {
+    #headerMenu li{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #headerMenu li{
+        margin: 5px 0;
+    }
+}
