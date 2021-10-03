@@ -207,31 +207,14 @@ $.extend( true, $.fn.dataTable.defaults, {
     }
 } );
 
-//------------------------------------------------------
-// Custom settings for PESSOA FÍSICA datatable
-//------------------------------------------------------
 $(document).ready(function() {
-    $('#table-pf').DataTable({
+    $('#table-filmes').DataTable({
         pageLength: 10 //Quantidade máxima de registros exibidos por página da tabela
     });
 } );
 
-//------------------------------------------------------
-// Custom settings for PESSOA JURÍDICA datatable
-//------------------------------------------------------
 $(document).ready(function() {
-    $('#table-pj').DataTable({
+    $('#table-series').DataTable({
         pageLength: 10 //Quantidade máxima de registros exibidos por página da tabela
-    });
-} );
-
-//------------------------------------------------------
-// Custom settings for NÚMERO DE REGISTRO datatable
-//------------------------------------------------------
-$(document).ready(function() {
-    $('#table-reg').DataTable({
-        pageLength: 1, //Já que o número de registro é único, exibe apenas 1 registro
-        paging: false, //Botões da paginação removidos pois é apenas 1 registro sempre
-        info: false //Informação da quantidade de registros resutantes da busca removido pois é apenas 1 registro sempre
     });
 } );
